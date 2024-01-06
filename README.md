@@ -51,3 +51,4 @@ EMAIL_PORT = 587 '''
 
 ### Deployment
 1. Djongo
+2. 
