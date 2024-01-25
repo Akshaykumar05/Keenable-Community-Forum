@@ -75,9 +75,9 @@ bash su zulip -c '/home/zulip/deployments/current/scripts/restart-server'
   
 5. Add Auth methods
   * Authentication Service facilitates username/password validation using your on-premises Active Directory/LDAP server. Authentication Service is installed as a virtual appliance and communicates with your local directory using LDAP over SSL. 
-<prep> I want to use two Auth service to enable with Zulip login those are: Google and GitHub.
-<prep>
-    
+* I want to use two Auth service to enable with Zulip login those are: Google and GitHub.
+* Oauth is one of the most secure methods of API authentication, and supports both authentication and authorization.
+  
 6. Mobile push notifications
   * Push notifications are messages that can be sent directly to a user's mobile device. Unlike in-app messages, push notifications can appear on a lock screen or in the top section of a mobile device.
 
