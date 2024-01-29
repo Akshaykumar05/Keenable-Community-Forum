@@ -93,4 +93,8 @@ bash su zulip -c '/home/zulip/deployments/current/scripts/restart-server'
 2. Tornado
 3. Django
 4. PostgreSQL
-   
+
+#### 1. Nginx
+![image](https://github.com/Akshaykumar05/community-forum/assets/114390890/c12e561a-8b32-4142-8238-19e7a80f56d6)
+
+* NGINX is open-source web server software used for reverse proxy, load balancing, and caching. It provides HTTPS server capabilities and is mainly designed for maximum performance and stability. It also functions as a proxy server for email communications protocols, such as IMAP, POP3, and SMTP. 
