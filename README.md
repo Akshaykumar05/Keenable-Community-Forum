@@ -134,6 +134,15 @@ Successfully sent 2 emails to manishbarman117@gmail.com!
 * Authentication Service facilitates username/password validation using your on-premises Active Directory/LDAP server. Authentication Service is installed as a virtual appliance and communicates with your local directory using LDAP over SSL. 
 * I want to enable OAuth service with Zulip to login, that is: Google Authorization.
 * Oauth is one of the most secure methods of API authentication, and supports both authentication and authorization.
+
+* First of all we have uncommented the "Authentication_Backend" for Google OAuth service in "setting.py" and it can be seen below in atteched screenshots.
+
+![Screenshot from 2024-01-30 17-00-56](https://github.com/Akshaykumar05/community-forum/assets/114390890/cc26692e-1039-452a-8051-b14d5bebdb32)
+
+![Screenshot from 2024-01-30 17-02-08](https://github.com/Akshaykumar05/community-forum/assets/114390890/c9eeb32f-3d4f-420c-9677-d4760226ee31)
+
+* Later we have to update the Google account according to the given documentation.
+
 ![google auth](https://github.com/Akshaykumar05/community-forum/assets/114390890/55a5bb88-b254-4bfc-80f7-6a96d6a75e93)
 
   
