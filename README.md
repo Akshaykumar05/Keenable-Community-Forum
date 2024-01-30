@@ -131,9 +131,11 @@ Successfully sent 2 emails to manishbarman117@gmail.com!
     * [Suggested link](https://www.fosstechnix.com/how-to-configure-postfix-with-gmail-on-ubuntu/) (from allemp) to Configure Postfix with Gmail on Ubuntu
   
 5. Add Auth methods
-  * Authentication Service facilitates username/password validation using your on-premises Active Directory/LDAP server. Authentication Service is installed as a virtual appliance and communicates with your local directory using LDAP over SSL. 
-* I want to use two Auth service to enable with Zulip login those are: Google and GitHub.
+* Authentication Service facilitates username/password validation using your on-premises Active Directory/LDAP server. Authentication Service is installed as a virtual appliance and communicates with your local directory using LDAP over SSL. 
+* I want to enable OAuth service with Zulip to login, that is: Google Authorization.
 * Oauth is one of the most secure methods of API authentication, and supports both authentication and authorization.
+![google auth](https://github.com/Akshaykumar05/community-forum/assets/114390890/55a5bb88-b254-4bfc-80f7-6a96d6a75e93)
+
   
 6. Mobile push notifications
   * Push notifications are messages that can be sent directly to a user's mobile device. Unlike in-app messages, push notifications can appear on a lock screen or in the top section of a mobile device.
