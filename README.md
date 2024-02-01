@@ -145,7 +145,23 @@ Successfully sent 2 emails to manishbarman117@gmail.com!
   
 ![Screenshot from 2024-02-01 13-12-35](https://github.com/Akshaykumar05/community-forum/assets/114390890/b0dca579-fd6d-49ab-9e2e-fee81d78f703)
 
-* Let's go on the Google Cloud Console 
+* Let's go on the Google Cloud Console
+
+![Screenshot from 2024-02-01 13-14-33](https://github.com/Akshaykumar05/community-forum/assets/114390890/1ea067aa-0e63-499a-869a-2586daf1a346)
+
+![Screenshot from 2024-02-01 13-13-13](https://github.com/Akshaykumar05/community-forum/assets/114390890/b064ac76-04bb-4dae-942f-10564db8157a)
+
+![Screenshot from 2024-02-01 13-12-50](https://github.com/Akshaykumar05/community-forum/assets/114390890/6e647b69-bc22-4496-a6af-139879745f9a)
+
+![Screenshot from 2024-02-01 13-14-52](https://github.com/Akshaykumar05/community-forum/assets/114390890/8677305b-c3cb-4d49-b868-58c15c1763be)
+
+![Screenshot from 2024-02-01 13-13-38](https://github.com/Akshaykumar05/community-forum/assets/114390890/128b1cc1-8e52-4a57-abe1-74d901eefce9)
+
+![Screenshot from 2024-02-01 13-11-57](https://github.com/Akshaykumar05/community-forum/assets/114390890/eee49870-00b1-4d15-a9be-e2f21cfdfec0)
+
+
+
+
 
 
 * Finally we have enabled the service, now the sign up page would be look like this
