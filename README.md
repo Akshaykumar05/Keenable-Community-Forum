@@ -141,8 +141,15 @@ Successfully sent 2 emails to manishbarman117@gmail.com!
 
 ![Screenshot from 2024-01-30 17-02-08](https://github.com/Akshaykumar05/community-forum/assets/114390890/c9eeb32f-3d4f-420c-9677-d4760226ee31)
 
-* Later we have to update the Google account according to the given documentation.
+* Later we have to update the Google Cloud console according to the given documentation.
+  
+![Screenshot from 2024-02-01 13-12-35](https://github.com/Akshaykumar05/community-forum/assets/114390890/b0dca579-fd6d-49ab-9e2e-fee81d78f703)
 
+* Let's go on the Google Cloud Console 
+
+
+* Finally we have enabled the service, now the sign up page would be look like this
+  
 ![google auth](https://github.com/Akshaykumar05/community-forum/assets/114390890/55a5bb88-b254-4bfc-80f7-6a96d6a75e93)
 
   
