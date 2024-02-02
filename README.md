@@ -197,3 +197,5 @@ Successfully sent 2 emails to manishbarman117@gmail.com!
   * Act as an API Gateway
   * Serve and Cache static files and images, videos, etc.
   * Handle SSL Certificate.
+ 
+  * PostgreSQL
