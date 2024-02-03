@@ -1,8 +1,9 @@
 # Community-forum
 ![cq_blog_perfect_collaboration_stack](https://github.com/Akshaykumar05/community-forum/assets/114390890/fa4260ac-5c68-46f1-98ea-03f868210f7c)
 
-* I'm building an open-source Community platform for Keenable organization, similar to the Discord and Slack but it would be self hosted.
-* For that I have selected **Zulip** tool. And now step by step I'll go for the self
+* I'm building an open-source Community platform for Keenable organization, similar to the Discord and Slack but this web application would be self hosted on the local server.
+* So first we would see the self hosting and configarions of the web applicationand and later we would see it's deployment. 
+* For the web application I have selected **Zulip** an open-source tool and now step by step we'll go for the selfhost. Ler's go..
 
 ## Self-hosting (Steps)
 1. Download server
