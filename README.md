@@ -3,7 +3,7 @@
 
 * I'm building an open-source Community platform for Keenable organization, similar to the Discord and Slack but this web application would be self hosted on the local server.
 * So first we would see the self hosting and configarions of the web applicationand and later we would see it's deployment. 
-* For the web application I have selected **Zulip** an open-source tool and now step by step we'll go for the selfhost. Ler's go..
+* For the web application I have selected **Zulip** an open-source tool and now step by step we'll go for the selfhost. Let's go..
 
 ## Self-hosting (Steps)
 1. Download server
