@@ -1,11 +1,11 @@
 # Community-forum
 ![cq_blog_perfect_collaboration_stack](https://github.com/Akshaykumar05/community-forum/assets/114390890/fa4260ac-5c68-46f1-98ea-03f868210f7c)
 
-* I'm building an open-source Community platform for Keenable organization, similar to the Discord and Slack but this web application would be self hosted on the local server.
-* So first we would see the self hosting and configarions of the web applicationand and later we would see it's deployment. 
-* For the web application I have selected **Zulip** an open-source tool and now step by step we'll go for the selfhost. Let's go..
+* I'm building an open-source Community platform for Keenable organization, similar to the Discord and Slack but this web application would be open-source so that we can configure it according to our need.
+* So first we would see the local hosting and configarions of the web applicationand and later we would see it's deployment.
+* For the web application I have selected **Zulip** an open-source tool and now step by step we'll go for the localhost. Let's go..
 
-## Self-hosting (Steps)
+## Localhosting (Steps)
 1. Download server
 2. Install script
 3. Create new organization
@@ -200,3 +200,7 @@ Successfully sent 2 emails to manishbarman117@gmail.com!
   * Handle SSL Certificate.
  
   * PostgreSQL
+
+## Deployment
+* Deployment is the mechanism through which applications, modules, updates, and patches are delivered from developers to users.
+* Deployment, also known as Software Deployment, is the process of installing, configuring, updating, and enabling one application or suite of applications that make a software system available for use, like facilitating a certain URL on a server.
