@@ -199,7 +199,22 @@ Successfully sent 2 emails to manishbarman117@gmail.com!
   * Serve and Cache static files and images, videos, etc.
   * Handle SSL Certificate.
  
-  * PostgreSQL
+#### PostgreSQL
+![image](https://github.com/Akshaykumar05/community-forum/assets/114390890/4236f2f5-8c11-47cb-b4ae-a8b48c22b3cf)
+
+* It is a powerful, open-source Object-Rational Database Management System (ORDMS).
+* It is used to store data securily.
+* It is developed by the PostgreSQL Global Development Group (a team of volunteers), it is not controlled by any corporation or other private entity.
+
+ #### History of PostgreSQL
+ * It was started in 1986 by professor Stonebreaker as a follow up project. PostgreSQL is now the most advanced open-source database available anywhere.
+
+ #### Features of PostgreSQL
+ * It runs onall major OS like: Linux, Unix, and Windows.
+ * It supports text, image, sound, video and include interfaces for many language like: C, C++, Java etc.
+ * It supports a lot of features of SQL like: complex SQL queries, foreign key, triggers, views, transactions and concurrency etc.
+ * In PostgreSQL, table can be set to inherit their characteristics from a "parent" table.
+ * You can install several extentions to add additional funtionality to PostgreSQL.
 
 ## Deployment
 * Deployment is the mechanism through which applications, modules, updates, and patches are delivered from developers to users.
