@@ -11,9 +11,11 @@
 3. Create new organization
 4. Connect SMTP service
 5. Add Auth methods
-6. Mobile push notifications
-7. Maintenance
-8. Connect
+6. Databases Service Configuration (PostgreSQL)
+7. Video call integrations
+8. Mobile push notifications
+9. Maintenance
+10. Connect
 
 ### Steps with details:
 1. Download server
@@ -169,8 +171,11 @@ Successfully sent 2 emails to manishbarman117@gmail.com!
   
 ![google auth](https://github.com/Akshaykumar05/community-forum/assets/114390890/55a5bb88-b254-4bfc-80f7-6a96d6a75e93)
 
-  
-6. Mobile push notifications
+6. Databases Service Configuration (PostgreSQL)
+* 
+8. Video call integrations
+   
+9. Mobile push notifications
   * Push notifications are messages that can be sent directly to a user's mobile device. Unlike in-app messages, push notifications can appear on a lock screen or in the top section of a mobile device.
 
 8. Maintenance
