@@ -172,7 +172,20 @@ Successfully sent 2 emails to manishbarman117@gmail.com!
 ![google auth](https://github.com/Akshaykumar05/community-forum/assets/114390890/55a5bb88-b254-4bfc-80f7-6a96d6a75e93)
 
 6. Databases Service Configuration (PostgreSQL)
-* 
+* Now we have to do a configuration of PostgreSQL and fo this we'll follow the **"setting.py"**.
+![Screenshot from 2024-02-08 00-08-36](https://github.com/Akshaykumar05/Keenable-Community-Forum/assets/114390890/2625794e-1dc7-4c77-a573-4a056043f88d)
+
+* First we'll uncomment Postgres Services as mentioned below:
+```
+  REMOTE_POSTGRES_HOST = "dbserver.example.com"
+  REMOTE_POSTGRES_PORT = "5432"
+  REMOTE_POSTGRES_SSLMODE = "require"
+```
+* Now we have to restart the server with the command:
+```
+su zulip -c '/home/zulip/deployments/current/scripts/restart-server'
+```
+
 8. Video call integrations
    
 9. Mobile push notifications
