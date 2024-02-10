@@ -187,8 +187,9 @@ su zulip -c '/home/zulip/deployments/current/scripts/restart-server'
 ```
 
 8. Video call integrations
+* 
    
-9. Mobile push notifications
+10. Mobile push notifications
   * Push notifications are messages that can be sent directly to a user's mobile device. Unlike in-app messages, push notifications can appear on a lock screen or in the top section of a mobile device.
 
 8. Maintenance
