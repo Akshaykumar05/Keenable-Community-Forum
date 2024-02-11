@@ -187,7 +187,10 @@ su zulip -c '/home/zulip/deployments/current/scripts/restart-server'
 ```
 
 8. Video call integrations
-* 
+* Here we are using **Jitsi** service for enabling the call service feature.
+
+![image](https://github.com/Akshaykumar05/Keenable-Community-Forum/assets/114390890/b9c595b3-06b4-4c17-a3a6-61d80770e5fc)
+
    
 10. Mobile push notifications
   * Push notifications are messages that can be sent directly to a user's mobile device. Unlike in-app messages, push notifications can appear on a lock screen or in the top section of a mobile device.
