@@ -5,6 +5,13 @@
 * So first we would see the local hosting and configarions of the web applicationand and later we would see it's deployment.
 * For the web application I have selected **Zulip** an open-source tool and now step by step we'll go for the localhost. Let's go..
 
+ #### First we would need to install Zulip server, and we have two options to install the server
+ 1. Normal installation
+ 2. Installation with Docker image
+
+ #### First will go for the normal installation and later if need we will also try the Docker image for installation.
+ 
+ 1. **Normal installtaion**
 ## Localhosting (Steps)
 1. Download server
 2. Install script
