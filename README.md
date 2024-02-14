@@ -11,8 +11,8 @@
 
  #### First will go for the normal installation and later if need we will also try the Docker image for installation.
  
- 1. **Normal installtaion**
-## Localhosting (Steps)
+
+## 1. Normal ibstallation : Localhosting(Steps) 
 1. Download server
 2. Install script
 3. Create new organization
@@ -198,14 +198,26 @@ su zulip -c '/home/zulip/deployments/current/scripts/restart-server'
 
 ![image](https://github.com/Akshaykumar05/Keenable-Community-Forum/assets/114390890/b9c595b3-06b4-4c17-a3a6-61d80770e5fc)
 
-   
+ 
 10. Mobile push notifications
   * Push notifications are messages that can be sent directly to a user's mobile device. Unlike in-app messages, push notifications can appear on a lock screen or in the top section of a mobile device.
 
 8. Maintenance
 9. Connect
   
-
+## 2. Installation with Docker image 
+  ### Pre-requisite
+  * Docker
+  * Docker Compose
+  ###  Steps:
+  * First we have to clone the repo of Zulip with following command:
+  ```
+  git clone https://github.com/zulip/docker-zulip.git
+  cd docker-zulip
+  # Edit `docker-compose.yml` to configure; see docs below
+  ```
+  * Then we'll edit the `docker-compose.yml` file 
+     
 ## Deployment Architecture
 ![Screenshot from 2023-12-29 00-16-05](https://github.com/Akshaykumar05/community-forum/assets/114390890/fb381617-f709-4a66-a32d-fa36bfc119eb)
 
