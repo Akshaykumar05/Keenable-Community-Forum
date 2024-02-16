@@ -218,7 +218,10 @@ su zulip -c '/home/zulip/deployments/current/scripts/restart-server'
   cd docker-zulip
   # Edit `docker-compose.yml` to configure; see docs below
   ```
-  * Then we'll edit the `docker-compose.yml` file 
+  * Then we'll edit the `docker-compose.yml` file
+  * You can boot your Zulip installation with:
+
+
      
 ## Deployment Architecture
 ![Screenshot from 2023-12-29 00-16-05](https://github.com/Akshaykumar05/community-forum/assets/114390890/fb381617-f709-4a66-a32d-fa36bfc119eb)
