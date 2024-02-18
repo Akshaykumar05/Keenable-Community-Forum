@@ -219,6 +219,7 @@ su zulip -c '/home/zulip/deployments/current/scripts/restart-server'
   # Edit `docker-compose.yml` to configure; see docs below
   ```
   * Then we'll edit the `docker-compose.yml` file
+  * And we have to make 4 containers those are: Redis, Postgres, Rabbitmg and Memcached.
   * You can boot your Zulip installation with:
 
 
