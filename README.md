@@ -220,9 +220,33 @@ su zulip -c '/home/zulip/deployments/current/scripts/restart-server'
   ```
   * Then we'll edit the `docker-compose.yml` file
   * And we have to make 4 containers those are: Redis, Postgres, Rabbitmg and Memcached.
-  * You can boot your Zulip installation with:
+  * Now we can boot our Zulip installation with following commands:
+  ```
+    docker-compose pull
+  ```
+  ```
+    docker-compose up
+  ```
+   * This will boot the 5 containers declared in `docker-compose.yml`
+     
+![image](https://github.com/Akshaykumar05/Keenable-Community-Forum/assets/114390890/dd51579e-36f7-45db-ad7f-f0550d5a6a41)
 
+   * In the above screenshot, we can see that we have created 5 containers named `redis` `postgres` `rabbitmq` `memcached` and `docker-zulip`
 
+   ### Running management commands
+   ```
+   # Get a (root) shell in the container so you can access logs
+   docker-compose exec zulip bash
+   # Create the initial Zulip organization
+   docker-compose exec -u zulip zulip \
+   /home/zulip/deployments/current/manage.py generate_realm_creation_link
+   ```
+
+   * After this running mamanagement coomand, we'll get a "**Local-host link**"
+     
+   ![Screenshot from 2024-02-19 16-15-32](https://github.com/Akshaykumar05/Keenable-Community-Forum/assets/114390890/4f7b3373-bda1-4a13-bf28-9dfffaa64e39)
+
+   * With the help of that link, we have to create an organization on Zulip web page, I created **Keenable Computers Pvt Ltd** as the Community organisation.
      
 ## Deployment Architecture
 ![Screenshot from 2023-12-29 00-16-05](https://github.com/Akshaykumar05/community-forum/assets/114390890/fb381617-f709-4a66-a32d-fa36bfc119eb)
