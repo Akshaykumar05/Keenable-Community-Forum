@@ -290,3 +290,45 @@ su zulip -c '/home/zulip/deployments/current/scripts/restart-server'
 ## Deployment
 * Deployment is the mechanism through which applications, modules, updates, and patches are delivered from developers to users.
 * Deployment, also known as Software Deployment, is the process of installing, configuring, updating, and enabling one application or suite of applications that make a software system available for use, like facilitating a certain URL on a server.
+
+
+#### Tornado
+![image](https://i.postimg.cc/4yCVbqQR/images.jpg)
+
+* Handles multiple concurrent connections efficiently, ideal for long-polling, WebSockets, and real-time applications.
+* Achieves high performance due to its single-threaded, non-blocking design
+* Offers built-in support for WebRTC, enabling real-time audio and video communication.
+  
+ #### History of Tornado
+ * Tornado, the Python web framework, rose to prominence in 2009 due to its focus on handling high real-time traffic at FriendFeed. While initial releases gained traction, development slowed after 2012. Though lacking a large community like Django or Flask, it maintains a devoted following for its strength in scalability and real-time applications, becoming a testament to the potential of asynchronous programming in web development.
+
+ #### Features of Tornado
+ * Efficiently manages numerous concurrent connections, ideal for long-polling, WebSockets, and real-time interactions.
+ * Achieves high speeds due to its non-blocking, single-threaded design.
+ * Offers a clean, well-documented API, making it approachable for many developers.
+ * Built-in capabilities for real-time audio and video communication.
+
+## Deployment
+* Don't run as a single process to maximize performance. Launch multiple instances, often one per CPU core, with reuse_port=True for efficient load balancing.
+* Consider using a front-end load balancer like Nginx to distribute traffic and handle static files, offloading Tornado from static content serving.
+* Utilize process managers like supervisor or systemd to manage process start/stop, restarts, and monitoring.
+* Use Python 3, avoid serving static files from Tornado, and employ a content delivery network (CDN) for static assets.
+
+#### Django
+![image](https://i.postimg.cc/fWpSdGTH/download.png)
+
+* Django is a high-level, free, and open-source Python web framework known for its rapid development, security, and scalability. It's built with the "DRY (Don't Repeat Yourself)" principle in mind, encouraging code reuse and efficient development.
+  
+ #### History of Django
+ * Born as a newspaper tool, Django blossomed into a globally beloved web framework, known for its speed, security, and ease of use.
+
+ #### Features of Django
+ * Django empowers rapid development with built-in features like user authentication, admin panel, ORM, and security, while boasting scalability and a large community, but might have a steeper learning curve compared to simpler frameworks.
+
+## Deployment
+* Adjust settings like database connections, static file paths, and secret keys for your environment.
+* Use manage.py collectstatic to gather static assets like CSS and JavaScript.
+* Use version control, automate deployments, and implement security measures like SSL/TLS.
+* Cloud platforms like Heroku, AWS, or GCP offer ready-made solutions, or choose self-hosting on your own server.
+
+  
