@@ -139,8 +139,6 @@ Successfully sent 2 emails to manishbarman117@gmail.com!
 
     * Postfix is a hugely-popular Mail Transfer Agent (MTA) designed to determine routes and send emails. This cross-platform server is open-source, free, and suitable for installation on the majority of UNIX-like operating systems.
     * [Suggested link](https://www.fosstechnix.com/how-to-configure-postfix-with-gmail-on-ubuntu/) (from allemp) to Configure Postfix with Gmail on Ubuntu.
-   
-* [Postmaster Tools](https://support.google.com/a/answer/9981691?sjid=10149656671777075305-AP&visit_id=638436024132136020-3878062968&rd=2) 
   
 5. Add Auth methods
 * Authentication Service facilitates username/password validation using your on-premises Active Directory/LDAP server. Authentication Service is installed as a virtual appliance and communicates with your local directory using LDAP over SSL. 
