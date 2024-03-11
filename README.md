@@ -306,6 +306,8 @@ su zulip -c '/home/zulip/deployments/current/scripts/restart-server'
  * Offers a clean, well-documented API, making it approachable for many developers.
  * Built-in capabilities for real-time audio and video communication.
 
+
+
 ## Deployment
 * Don't run as a single process to maximize performance. Launch multiple instances, often one per CPU core, with reuse_port=True for efficient load balancing.
 * Consider using a front-end load balancer like Nginx to distribute traffic and handle static files, offloading Tornado from static content serving.
@@ -328,5 +330,10 @@ su zulip -c '/home/zulip/deployments/current/scripts/restart-server'
 * Use manage.py collectstatic to gather static assets like CSS and JavaScript.
 * Use version control, automate deployments, and implement security measures like SSL/TLS.
 * Cloud platforms like Heroku, AWS, or GCP offer ready-made solutions, or choose self-hosting on your own server.
+
+#### Testing
+* There are two types of web app testing.
+  1. Manual Testing
+  2. Automatic Testing.
 
   
